@@ -1,6 +1,7 @@
 import java.util.*
 import kotlin.collections.*
 import kotlin.io.*
+import kotlin.math.min
 import kotlin.ranges.*
 import kotlin.text.*
 
@@ -12,6 +13,14 @@ fun surfaceArea(A: Array<Array<Int>>): Int {
     for (i in A.indices) {
         for (j in A[i].indices) {
             result += 2 + 4 * A[i][j]
+
+            if (j != 0) {
+                result -= min(A[i][j-1], A[i][j]) * 2
+            }
+
+            if (i != 0) {
+                result -= min(A[i-1][j], A[i][j]) * 2
+            }
         }
     }
 
