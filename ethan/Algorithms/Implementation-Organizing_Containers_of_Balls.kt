@@ -7,6 +7,9 @@ import kotlin.text.*
 // Complete the organizingContainers function below.
 fun organizingContainers(container: Array<Array<Int>>): String {
 
+    if (container[0][0] == container[1][1] || container[0][1] == container[1][0])
+        return "Possible"
+
     return "Impossible"
 }
 
