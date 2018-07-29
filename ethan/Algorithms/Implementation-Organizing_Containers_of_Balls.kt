@@ -7,6 +7,23 @@ import kotlin.text.*
 // Complete the organizingContainers function below.
 fun organizingContainers(container: Array<Array<Int>>): String {
 
+    var row = Array(container.count()) {0}
+    var col = Array(container.count()) {0}
+
+    for (i in container.indices) {
+        row[i] = container[i].sum()
+
+        for (j in container[i].indices) {
+            col[j] += container[i][j]
+        }
+    }
+
+    row.sort()
+    col.sort()
+
+    if (Arrays.toString(row) == Arrays.toString(col))
+        return "Possible"
+
     return "Impossible"
 }
 
