@@ -6,7 +6,19 @@ import kotlin.text.*
 // Complete the larrysArray function below.
 fun larrysArray(A: Array<Int>): String {
 
-    return "NO"
+    var result = 0
+
+    for (i in 0 until A.size-1) {
+        for (j in i+1 until A.size) {
+            if (A[i] > A[j]) result++
+        }
+    }
+
+    return if (result % 2 == 0) {
+        "YES"
+    } else {
+        "NO"
+    }
 }
 
 fun main(args: Array<String>) {
