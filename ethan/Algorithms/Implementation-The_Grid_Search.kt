@@ -6,6 +6,26 @@ import kotlin.text.*
 // Complete the gridSearch function below.
 fun gridSearch(G: Array<String>, P: Array<String>): String {
 
+    val pSize = P[0].length
+
+    G.forEachIndexed { index, element ->
+        val startIndex = element.indexOf(P[0])
+        val endIndex = startIndex + pSize
+        var matchCount = 0
+        var result = true
+
+        if (startIndex >= 0 && index <= G.count() - P.count()) {
+            for (i in G.sliceArray(index+1 until index+P.count())) {
+                matchCount++
+                if (P[matchCount] !in i.substring(startIndex, endIndex)) {
+                    result = false
+                    break
+                }
+            }
+            if (result) return "YES"
+        }
+    }
+
     return "NO"
 }
 
