@@ -6,7 +6,19 @@ import kotlin.text.*
 // Complete the nonDivisibleSubset function below.
 fun nonDivisibleSubset(k: Int, S: Array<Int>): Int {
 
-    return 0
+    var counts = Array(size = k) { 0 }
+
+    for (i in S) {
+        counts[i%k]++
+    }
+
+    var result = counts[0]
+
+    for (count in counts) {
+        result = maxOf(result, count)
+    }
+
+    return result
 }
 
 fun main(args: Array<String>) {
