@@ -12,12 +12,15 @@ fun nonDivisibleSubset(k: Int, S: Array<Int>): Int {
         counts[i%k]++
     }
 
-    var result = counts[0]
+    var result = minOf(counts[0], 1)
 
-    for (count in counts) {
-        result = maxOf(result, count)
+    for (i in 1..k/2) {
+        if (i != k-i) {
+            result += maxOf(counts[i], counts[k - i])
+        } else if (counts[i] > 0) {
+            result++
+        }
     }
-
     return result
 }
 
