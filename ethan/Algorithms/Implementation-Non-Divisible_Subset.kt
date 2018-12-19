@@ -14,8 +14,8 @@ fun nonDivisibleSubset(k: Int, S: Array<Int>): Int {
 
     var result = counts[0]
 
-    for (count in counts) {
-        result = maxOf(result, count)
+    for (i in 1..k/2) {
+        result += maxOf(counts[i], counts[k-i])
     }
 
     return result
