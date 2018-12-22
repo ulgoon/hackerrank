@@ -20,7 +20,7 @@ fun main(args: Array<String>) {
     val r_q = r_qC_q[0].trim().toInt()
     val c_q = r_qC_q[1].trim().toInt()
 
-    val obstacles = Array<Array<Int>>(k, { Array<Int>(2, { 0 }) })
+    val obstacles = Array(k) { Array(2) { 0 } }
 
     for (i in 0 until k) {
         obstacles[i] = scan.nextLine().split(" ").map{ it.trim().toInt() }.toTypedArray()
