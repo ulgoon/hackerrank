@@ -6,15 +6,36 @@ import kotlin.text.*
 
 fun queensAttack(n: Int, k: Int, r_q: Int, c_q: Int, obstacles: Array<Array<Int>>): Int {
 
+    // no obstacle cases
+
+    // Space in 4 directions
     var up = n - r_q
     var down = r_q - 1
     var left = c_q - 1
     var right = n - c_q
 
+    // Space in the diagonal directions
     var up_left = minOf(up, left)
     var down_left = minOf(down, left)
     var down_right = minOf(down, right)
     var up_right = minOf(up, right)
+
+    // Check obstacles in 4 directions
+    for (obstacle in obstacles) {
+        if (obstacle[0] == r_q) {
+            if (obstacle[1] < c_q) {
+                left -= obstacle[1]
+            } else {
+                right -= (n - (obstacle[1] - 1))
+            }
+        } else if (obstacle[1] == c_q) {
+            if (obstacle[0] < r_q) {
+                down -= obstacle[0]
+            } else {
+                up -= (n - (obstacle[0] - 1))
+            }
+        }
+    }
 
     return up + down + left + right + up_left + down_left + down_right + up_right
 }
