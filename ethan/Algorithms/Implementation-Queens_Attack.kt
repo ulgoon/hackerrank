@@ -20,8 +20,9 @@ fun queensAttack(n: Int, k: Int, r_q: Int, c_q: Int, obstacles: Array<Array<Int>
     var down_right = minOf(down, right)
     var up_right = minOf(up, right)
 
-    // Check obstacles in 4 directions
     for (obstacle in obstacles) {
+        
+        // Check obstacles in 4 directions
         if (obstacle[0] == r_q) {
             if (obstacle[1] < c_q) {
                 left -= obstacle[1]
@@ -33,6 +34,20 @@ fun queensAttack(n: Int, k: Int, r_q: Int, c_q: Int, obstacles: Array<Array<Int>
                 down -= obstacle[0]
             } else {
                 up -= (n - (obstacle[0] - 1))
+            }
+        }
+
+        // Check obstacles in diagonal directions
+        else if (abs(obstacle[0] - r_q) == abs(obstacle[1] - c_q)) {
+
+            var diff = abs(obstacle[1] - c_q)
+
+            if (obstacle[0] < r_q) {
+                if (obstacle[1] < c_q) down_left = diff - 1
+                else down_right = diff - 1
+            } else {
+                if (obstacle[1] < c_q) up_left = diff - 1
+                else up_right = diff - 1
             }
         }
     }
