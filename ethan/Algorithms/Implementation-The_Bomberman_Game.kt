@@ -6,9 +6,8 @@ import kotlin.text.*
 
 fun bomberMan(n: Int, grid: Array<String>): Array<String> {
 
-    if (n % 2 == 0) {
-        return Array(grid.size) { "O".repeat(grid[0].length) }
-    }
+    if (n == 1) return grid
+    else if (n % 2 == 0) return Array(grid.size) { "O".repeat(grid[0].length) }
 
     return arrayOf("")
 }
