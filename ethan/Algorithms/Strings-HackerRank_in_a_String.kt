@@ -4,7 +4,15 @@ import kotlin.text.*
 
 fun hackerrankInString(s: String): String {
 
-    return ""
+    var hackerrank = "hackerrank"
+    var i = 0
+
+    s.forEach {
+        if (it == hackerrank[i]) i++
+        if (i == hackerrank.length) return "YES"
+    }
+
+    return "NO"
 }
 
 fun main(args: Array<String>) {
