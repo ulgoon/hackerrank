@@ -1,8 +1,18 @@
 import java.util.*
 import kotlin.io.*
+import kotlin.math.abs
 import kotlin.text.*
 
 fun funnyString(s: String): String {
+    val rs = s.reversed()
+
+    var i = 0
+    while (i < s.length - 1) {
+        if (abs(s[i] - s[i+1]) != abs(rs[i] - rs[i+1])) {
+            return "Not Funny"
+        }
+        i++
+    }
     return "Funny"
 }
 
