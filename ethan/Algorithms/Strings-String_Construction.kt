@@ -4,7 +4,7 @@ import kotlin.text.*
 
 fun stringConstruction(s: String): Int {
 
-    return 0
+    return s.toSet().count()
 }
 
 fun main(args: Array<String>) {
