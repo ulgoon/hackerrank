@@ -12,7 +12,7 @@ fun gameOfThrones(s: String): String {
                 else -> oneOdd = true
             }
         }
-    }
+    }ㅑ
 
     return "YES"
 }
