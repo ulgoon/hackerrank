@@ -4,6 +4,9 @@ import kotlin.text.*
 
 fun twoStrings(s1: String, s2: String): String {
 
+    for (i in s1.toSet()) {
+        if (i in s2.toSet()) return "YES"
+    }
     return "NO"
 }
 
