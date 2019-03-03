@@ -5,7 +5,7 @@ import kotlin.text.*
 
 fun introTutorial(V: Int, arr: Array<Int>): Int {
 
-    return 0
+    return arr.binarySearch(V)
 }
 
 fun main(args: Array<String>) {
