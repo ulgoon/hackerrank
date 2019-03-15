@@ -1,4 +1,5 @@
 import java.util.*
+import kotlin.Comparator
 import kotlin.collections.*
 import kotlin.io.*
 import kotlin.ranges.*
@@ -6,8 +7,19 @@ import kotlin.text.*
 
 fun bigSorting(unsorted: Array<String>): Array<String> {
 
-    var result = unsorted.sortedWith(compareBy({it.length}, {it}))
-    return result.toTypedArray()
+    return unsorted.sortedWith(Comparator { n1, n2 ->
+        when {
+            n1.length > n2.length -> 1
+            n1.length < n2.length -> -1
+            else -> {
+                when {
+                    n1 > n2 -> 1
+                    n1 < n2 -> -1
+                    else -> 0
+                }
+            }
+        }
+    }).toTypedArray()
 }
 
 fun main(args: Array<String>) {
