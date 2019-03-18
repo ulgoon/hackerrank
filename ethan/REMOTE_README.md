@@ -46,6 +46,7 @@
 - Strings-HackerRank_in_a_String.kt
 - Strings-Mars_Exploration.kt
 - Strings-Pangrams.kt
+- Strings-Separate_the_Numbers.kt
 - Strings-String_Construction.kt
 - Strings-Strong_Password.kt
 - Strings-Super_Reduced_String.kt
