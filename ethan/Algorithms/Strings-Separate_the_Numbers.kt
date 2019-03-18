@@ -3,6 +3,22 @@ import kotlin.text.*
 
 fun separateNumbers(s: String): Unit {
 
+    for (i in 1..s.length/2) {
+        var baseNumber = s.substring(0, i).toLong()
+        var testString = baseNumber.toString()
+        var increase = 1
+
+        while (testString.length < s.length) {
+            testString += (baseNumber + increase).toString()
+            increase++
+        }
+
+        if (testString == s) {
+            println("YES $baseNumber")
+            return
+        }
+    }
+
     println("NO")
 }
 
