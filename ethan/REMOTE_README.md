@@ -39,10 +39,12 @@
 - Implementation-The_Grid_Search.kt
 - Implementation-The_Time_in_Words.kt
 - Strings-Alternating_Characters.kt
+- Strings-Beautiful_Binary_String.kt
 - Strings-Caesar_Cipher.kt
 - Strings-Camel_Case.kt
 - Strings-Funny_String.kt
 - Strings-Game_of_Thrones-1.kt
+- Strings-Gemstones.kt
 - Strings-HackerRank_in_a_String.kt
 - Strings-Mars_Exploration.kt
 - Strings-Pangrams.kt
