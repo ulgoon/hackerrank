@@ -44,6 +44,7 @@
 - Strings-Camel_Case.kt
 - Strings-Funny_String.kt
 - Strings-Game_of_Thrones-1.kt
+- Strings-Gemstones.kt
 - Strings-HackerRank_in_a_String.kt
 - Strings-Mars_Exploration.kt
 - Strings-Pangrams.kt
