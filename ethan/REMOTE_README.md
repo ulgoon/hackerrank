@@ -55,9 +55,11 @@
 - Strings-The_Love-Letter_Mystery.kt
 - Strings-Two_Strings.kt
 - Sorting-Big_Sorting.kt
+- Sorting-Closest_Numbers.kt
 - Sorting-Insertion_Sort_Part1.kt
 - Sorting-Insertion_Sort_Part2.kt
 - Sorting-Intro_to_Tutorial_Challenges.kt
+- Sorting-Quicksort1.kt
 - Sorting-Running_Time_of_Algorithms.kt
 - Search-Ice_Cream_Parlor.kt
 
