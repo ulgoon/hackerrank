@@ -5,7 +5,8 @@ import kotlin.text.*
 
 fun findMedian(arr: Array<Int>): Int {
 
-    return 0
+    // 1. 정렬 후 중간 위치의 값을 출력한다.
+    arr.sorted().let { return it[arr.size/2] }
 }
 
 fun main(args: Array<String>) {
