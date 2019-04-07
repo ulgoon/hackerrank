@@ -58,6 +58,7 @@
 - Sorting-Closest_Numbers.kt
 - Sorting-Counting_Sort1.kt
 - Sorting-Counting_Sort2.kt
+- Sorting-Find_the_Median.kt
 - Sorting-Insertion_Sort_Part1.kt
 - Sorting-Insertion_Sort_Part2.kt
 - Sorting-Intro_to_Tutorial_Challenges.kt
