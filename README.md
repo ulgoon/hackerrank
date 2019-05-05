@@ -67,3 +67,4 @@ All about hackerrank
 - Sorting-Quicksort1.kt
 - Sorting-Running_Time_of_Algorithms.kt
 - Search-Ice_Cream_Parlor.kt
+- Search-Missing_Number.kt
