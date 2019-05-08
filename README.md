@@ -68,3 +68,4 @@ All about hackerrank
 - Sorting-Running_Time_of_Algorithms.kt
 - Search-Ice_Cream_Parlor.kt
 - Search-Missing_Number.kt
+- Search-Sherlock_and_Array.kt
