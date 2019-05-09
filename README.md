@@ -69,3 +69,4 @@ All about hackerrank
 - Search-Ice_Cream_Parlor.kt
 - Search-Missing_Number.kt
 - Search-Sherlock_and_Array.kt
+- Greedy-Grid_Challenge.kt
