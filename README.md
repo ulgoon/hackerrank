@@ -71,3 +71,4 @@ All about hackerrank
 - Search-Sherlock_and_Array.kt
 - Greedy-Grid_Challenge.kt
 - Greedy-Luck_Balance.kt
+- Greedy-Mark_and_Toys.kt
