@@ -5,7 +5,18 @@ import kotlin.text.*
 
 fun maximumToys(prices: Array<Int>, k: Int): Int {
 
-    return 0
+    var total = 0
+    var numberOfToy = 0
+
+    for (i in prices.sortedArray()) {
+        total += i
+
+        if (total > k) break
+
+        numberOfToy++
+    }
+
+    return numberOfToy
 }
 
 fun main(args: Array<String>) {
