@@ -70,3 +70,4 @@ All about hackerrank
 - Search-Missing_Number.kt
 - Search-Sherlock_and_Array.kt
 - Greedy-Grid_Challenge.kt
+- Greedy-Luck_Balance.kt
