@@ -70,5 +70,6 @@ All about hackerrank
 - Search-Missing_Number.kt
 - Search-Sherlock_and_Array.kt
 - Greedy-Grid_Challenge.kt
+- Greedy-Jim_and_the_Orders.kt
 - Greedy-Luck_Balance.kt
 - Greedy-Mark_and_Toys.kt
