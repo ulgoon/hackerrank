@@ -73,3 +73,4 @@ All about hackerrank
 - Greedy-Jim_and_the_Orders.kt
 - Greedy-Luck_Balance.kt
 - Greedy-Mark_and_Toys.kt
+- Greedy-Permuting_Two_Arrays.kt
