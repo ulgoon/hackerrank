@@ -74,4 +74,5 @@ All about hackerrank
 - Greedy-Luck_Balance.kt
 - Greedy-Mark_and_Toys.kt
 - Greedy-Maximum_Perimeter_Triangle.kt
+- Greedy-Minimum_Absolute_Difference_in_an_Array.kt
 - Greedy-Permuting_Two_Arrays.kt
