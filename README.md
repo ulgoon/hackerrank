@@ -69,6 +69,7 @@ All about hackerrank
 - Search-Ice_Cream_Parlor.kt
 - Search-Missing_Number.kt
 - Search-Sherlock_and_Array.kt
+- Greedy-Beautiful_Pairs.kt
 - Greedy-Grid_Challenge.kt
 - Greedy-Jim_and_the_Orders.kt
 - Greedy-Luck_Balance.kt
