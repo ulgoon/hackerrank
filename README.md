@@ -72,6 +72,7 @@ All about hackerrank
 - Greedy-Beautiful_Pairs.kt
 - Greedy-Grid_Challenge.kt
 - Greedy-Jim_and_the_Orders.kt
+- Greedy-Largest_Permutation.kt
 - Greedy-Luck_Balance.kt
 - Greedy-Mark_and_Toys.kt
 - Greedy-Maximum_Perimeter_Triangle.kt
