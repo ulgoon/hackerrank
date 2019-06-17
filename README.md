@@ -79,3 +79,4 @@ All about hackerrank
 - Greedy-Minimum_Absolute_Difference_in_an_Array.kt
 - Greedy-Permuting_Two_Arrays.kt
 - Greedy-Sherlock_and_The_Beast.kt
+- Bit_Manipulation-Lonely_Integer.kt
