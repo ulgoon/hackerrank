@@ -5,7 +5,13 @@ import kotlin.text.*
 
 fun lonelyinteger(a: Array<Int>): Int {
 
-    return 0
+    // 1. 결과를 저장할 변수를 생성한다.
+    var result = 0
+
+    // 2. bit 연산자인 xor을 이용하여 같은 값을 지운다.
+    a.forEach { result = result xor it }
+
+    return result
 }
 
 fun main(args: Array<String>) {
