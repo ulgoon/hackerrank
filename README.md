@@ -80,3 +80,4 @@ All about hackerrank
 - Greedy-Permuting_Two_Arrays.kt
 - Greedy-Sherlock_and_The_Beast.kt
 - Bit_Manipulation-Lonely_Integer.kt
+- Bit_Manipulation-Maximizing_XOR.kt
