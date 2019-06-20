@@ -81,3 +81,4 @@ All about hackerrank
 - Greedy-Sherlock_and_The_Beast.kt
 - Bit_Manipulation-Lonely_Integer.kt
 - Bit_Manipulation-Maximizing_XOR.kt
+- Bit_Manipulation-Sum_vs_XOR.kt
