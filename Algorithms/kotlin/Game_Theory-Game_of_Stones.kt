@@ -4,7 +4,11 @@ import kotlin.text.*
 
 fun gameOfStones(n: Int): String {
 
-    return "First"
+    // 1. 돌의 개수를 7로 나누었을 때, 나머지가 0 또는 1일 경우 Second가 이긴다.
+    return when (n % 7) {
+        0, 1 -> "Second"
+        else -> "First"
+    }
 }
 
 fun main(args: Array<String>) {
