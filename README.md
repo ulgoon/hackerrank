@@ -83,3 +83,4 @@ All about hackerrank
 - Bit_Manipulation-Lonely_Integer.kt
 - Bit_Manipulation-Maximizing_XOR.kt
 - Bit_Manipulation-Sum_vs_XOR.kt
+- Game_Theory-Game_of_Stones.kt
