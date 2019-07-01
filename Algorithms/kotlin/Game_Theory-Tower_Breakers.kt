@@ -4,7 +4,10 @@ import kotlin.text.*
 
 fun towerBreakers(n: Int, m: Int): Int {
 
-    return 0
+    // 1-1. 높이가 1인 타워는 player2가 승리한다.
+    // 1-2. 타워의 개수가 홀수이면 player1이 승리한다.
+    return if ((m == 1) or (n % 2 == 0)) 2
+    else 1
 }
 
 fun main(args: Array<String>) {
