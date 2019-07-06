@@ -87,4 +87,5 @@ All about hackerrank
 - Game_Theory-Game_of_Stones.kt
 - Game_Theory-Introduction_to_Nim_Game.kt
 - Game_Theory-Misère_Nim.kt
+- Game_Theory-Nimble_Game.kt
 - Game_Theory-Tower_Breakers.kt
